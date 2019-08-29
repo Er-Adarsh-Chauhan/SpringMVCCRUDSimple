@@ -52,3 +52,6 @@ The following tools can be used for the development:
 * Apache Tomcat ver 9.0
 * Oracle Database 11g
 
+# Using Oracle Database 11g 
+## Create Table
+Create table emp99(id number(5),name varchar2(30),salary number(9,2),designation varchar2(30));
