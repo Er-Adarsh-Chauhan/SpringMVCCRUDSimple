@@ -19,6 +19,8 @@ There are some approaches given below to apply for Web Application Development
    who doesn't know much more jsp then he will face problem to modify its logic.
 3. JSP pages require more time when  first request is given to the server.
 
+Note: You can get Jsp based web application from here  https://github.com/Er-Adarsh-Chauhan/Jsp-Curd-Operations-Using-useBean-tag
+
 ### Using MVC 
 ---------
 --- Advantages---
