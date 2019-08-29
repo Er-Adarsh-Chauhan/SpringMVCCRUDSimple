@@ -63,6 +63,18 @@ A sequence is an object in Oracle SQl that lets you generates unique numbers lik
 `create sequence emp99_id`;
 
 ## 3. Create Trigger
-Trigger is an object of Oracle SQL that runs on a certain Conditions.
+Trigger is an object of Oracle SQL that runs on a certain Conditions. so syntax is given below
 
+`
+  Create Trigger Emp99_bi
+  Before Insert on Emp99
+  For Each row
+  Begin 
+  	Select emp99_id_seq.nextval
+	Into:new.emp99_id
+	from dual;
+End;
+
+
+`
 
