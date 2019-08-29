@@ -53,5 +53,16 @@ The following tools can be used for the development:
 * Oracle Database 11g
 
 # Using Oracle Database 11g 
-## Create Table
-Create table emp99(id number(5),name varchar2(30),salary number(9,2),designation varchar2(30));
+
+## 1. Create Table
+`Create table emp99(id number(5),name varchar2(30),salary number(9,2),designation varchar2(30));`
+
+## 2. Create Sequence
+A sequence is an object in Oracle SQl that lets you generates unique numbers like table id. so syntax is given below
+
+`create sequence emp99_id`;
+
+## 3. Create Trigger
+Trigger is an object of Oracle SQL that runs on a certain Conditions.
+
+
