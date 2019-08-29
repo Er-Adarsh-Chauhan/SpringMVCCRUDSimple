@@ -41,6 +41,7 @@ In this article we will create applications for personal records management with
 * JSP Standard Tag Library (JSTL)
 * Java Database Connectivity (JDBC)
 * Spring Framework version 5.1.8
+* Implementation of DAO Design Pattern to get Persistance Data from database 
 
 The following tools can be used for the development:
 * Eclipse IDE for Java EE Developers (one of the newer versions is recommended)
