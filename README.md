@@ -5,7 +5,7 @@
 ## Choose Correct/Latest Architecture based Web Application Development Approach
 There are some approaches given below to apply for Web Application Development
 
-Using JSP
+### Using JSP
 ---------
 ---Advantages---
 1. jsp is java server pages that execute on server. so there is no intimation given to client.
@@ -19,7 +19,7 @@ Using JSP
    who doesn't know much more jsp then he will face problem to modify its logic.
 3. JSP pages require more time when  first request is given to the server.
 
-Using MVC 
+### Using MVC 
 ---------
 --- Advantages---
 1. using mvc we can separate presentation , business and its data handling logics through different layers.
@@ -37,10 +37,13 @@ Using MVC
 
 ## Create Application with CRUD Implementation
 In this article we will create applications for personal records management with the following technologies:
-* Java Servlets and Java Server Pages (JSP)
+* Java Beans and Java Server Pages (JSP)
 * JSP Standard Tag Library (JSTL)
 * Java Database Connectivity (JDBC)
+* Spring Framework version 5.1.8
 
 The following tools can be used for the development:
 * Eclipse IDE for Java EE Developers (one of the newer versions is recommended)
-* Apache Tomcat ver 8.5
+* Apache Tomcat ver 9.0
+* Oracle Database 11g
+
