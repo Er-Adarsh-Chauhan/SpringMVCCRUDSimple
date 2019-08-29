@@ -74,3 +74,4 @@ Trigger is an object of Oracle SQL that runs on a certain Conditions. so syntax 
 	from dual;
 End;`
 
+`Note : The above steps are to creating table Emp99 and Auto-Update its table id automatically.`
