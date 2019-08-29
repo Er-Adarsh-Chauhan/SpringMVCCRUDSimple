@@ -7,17 +7,6 @@ There are some approaches given below to apply for Web Application Development
 
 Using JSP
 ---------
-	---Advantages---
-	1. jsp is java server pages that execute on server. so there is no intimation given to client.
-	2. jsp separates  presentation logic from its business logic with the help of <jsp:useBean> tag.
-	3. using jsp we can remove java code from jsp with the help of EL and JSTL totally that make our jsp more secure.
-	--- Disadvantages---
-	1. we can develop applications by using jsp but everything is like presentation and business logic in jsp then 
-     our jsp becomes heavy weight component we know that a jsp internally converted in servlet so huge amount 
-     of java code is placed during jsp translation. so it reduces applications performance.
-	2. if any application is developed using jsp after some time someone tries to modify its logics that is written 
-     in jsp who doesn't know much more jsp then he will face problem to modify its logic.
-	3. JSP pages require more time when  first request is given to the server.
 
 Using MVC 
 ---------
